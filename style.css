@@ -1,5 +1,11 @@
 /*Me contrata! ;)*/
 
 p{
-	color: red;
+	color: #FF00FF;
+	font-size: 40px;
+	font-family: helvetica, arial;
+}
+
+body{
+	background-color: black;
 }
