@@ -22,10 +22,16 @@ header{
 
 #esquerda {
 	background-color: red;
+	min-height: 200px;
+	width: 60%;
+	float: left;
 }
 
 #direira{
 	background-color: yellow;
+	min-height: 200px;
+	width: 40%;
+	float: right;
 }
 
 footer{
