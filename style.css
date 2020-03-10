@@ -9,3 +9,26 @@ p{
 body{
 	background-color: black;
 }
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: green;
+	height: 100px;
+}
+
+#esquerda {
+	background-color: red;
+}
+
+#direira{
+	background-color: yellow;
+}
+
+footer{
+	background-color: blue;
+	height: 30px;
+}
