@@ -1,13 +1,14 @@
 /*Me contrata! ;)*/
 /*tags*/
 p{ /* Altera o estilo de todos os parágrafos */
-	color: #FF00FF; /* Altera a cor da fonte */
-	font-size: 40px; /* Altera o tamanho da fonte */
+	color: white; /* Altera a cor da fonte */
+	font-size: 15px; /* Altera o tamanho da fonte */
 	font-family: helvetica, arial; /* Define a fonte de todos os parágrafos */
+	text-shadow: 1px 1px 1px #111111;
 }
 
 body{ /* Altera o estilo de tudo que está dentro do body */
-	background-color: black; /* Altera a cor do fundo da página */
+	background-color: #222222; /* Altera a cor do fundo da página */
 }
 
 *{ /* Altera o estilo de tudo na página */
@@ -17,34 +18,59 @@ body{ /* Altera o estilo de tudo que está dentro do body */
 }
 
 header{ /* Altera o estilo do cabeçalho */
-	background-color: #F08080; /* Altera a cor do fundo do cabeçalho */
-	height: 120px; /* Altera a altura do cabeçalho */
-	padding: 20px; /* Valor da distância da margem (da borda para dentro) */
+	background-color: #F08080;
+	height: 100px;
+	padding: 20px; 
 }
 
 footer{ /* Altera o estilo do rodapé */
-	clear: both; /* Necessário para que o rodapé fixe no final de qualquer div (fim da página) */
-	background-color: #F08080; /* Altera a cor do fundo do rodapé */
-	height: 30px; /* Altera a altura do rodapé */
-	text-align: center; /* Alinha o texto (no caso, está centralizado) */
-	padding: 10px; /* Valor da distância da margem (da borda para dentro) */
+	clear: both;
+	background-color: #F08080;
+	height: 30px; 
+	text-align: center; 
+	padding: 10px;
 }
 
 h1 { /* Altera o estilo de todos H1 */
-	color: #FFFF; /* Altera a cor da fonte */
+	color: #FF00FF;
+	text-shadow: 1px 1px 2px #FFFFFF;
+	text-align: center;
+	margin-bottom: 35px;
 }
 
 /*id*/
 #principal { /* Altera o estilo do id */
-	background-color: red; /* Altera a cor do fundo do id */
-	min-height: 200px; /* Estipula um tamanho base, porém aumenta com a quantidade de conteúdo */
-	width: 60%; /* Altera a largura (caso o valor esteja com uma porcentagem, quer dizer que altera conforme a dimensão da tela) */
-	float: left; /* Fixa um determinado componente no lugar (no caso, à esquerda) */
+	background-image: url('MeContrata.png'); 
+	background-size: 100%;
+	min-height: 350px; 
+	padding: 60px 0 30px 0;
+	clear: both;
 }
 
+#logo{
+	float: left;
+}
+
+#menu{
+	margin-top: 40px;
+	float: right;
+}
+
+#menu a{
+	text-decoration: none;
+	color: #111;
+	text-shadow: 1px 1px #111111;
+	padding: 20px;
+}
 
 /*class*/
 .container{ /* Altera o estilo da classe */
-	width: 960px; /* Determina o tamanho da largura */
-	margin: auto; /* Define o tamanho da margem automáticamente */
+	width: 960px;
+	margin: auto; 
+	overflow: auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:60px 0 60px 0;
 }
