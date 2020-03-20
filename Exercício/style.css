@@ -1,0 +1,73 @@
+/*Me contrata! ;)*/
+
+/*tags*/
+
+*{ /* Altera o estilo de tudo na página */
+	margin: 0; /* Valor da distância da margem (da borda para fora) */
+	padding: 0; /* Valor da distância da margem (da borda para dentro) */
+	font-family: Helvetica, Arial; /* Define a fonte de toda página */
+}
+
+body{ /* Altera o estilo de tudo que está dentro do body */
+	background-color: black; /* Altera a cor do fundo da página */
+}
+
+header{ /* Altera o estilo do cabeçalho */
+	background-color: #F08080; /* Altera a cor do fundo do cabeçalho */
+	height: 120px; /* Altera a altura do cabeçalho */
+	padding: 20px; /* Valor da distância da margem (da borda para dentro) */
+}
+
+nav{
+	background-color: #F38080;
+	height: 20px;
+}
+
+article{
+	height: 80%;
+	width: 59%;
+	float: left;
+	background-color: white;
+	margin-right: 2%; 
+}
+
+aside{
+	height: 80%;
+	width: 39%;
+	float: right;
+	background-color: white;
+}
+
+section{
+	padding: 5px;
+}
+
+footer{ /* Altera o estilo do rodapé */
+	clear: both; /* Necessário para que o rodapé fixe no final de qualquer div (fim da página) */
+	background-color: #F08080; /* Altera a cor do fundo do rodapé */
+	height: 20px; /* Altera a altura do rodapé */
+	text-align: center; /* Alinha o texto (no caso, está centralizado) */
+	padding: 10px; /* Valor da distância da margem (da borda para dentro) */
+}
+
+/*textos*/
+
+h1 { /* Altera o estilo de todos H1 */
+	color: #FFFF; /* Altera a cor da fonte */
+}
+
+p{
+	padding: 5px;
+}
+
+/*classes*/
+.container{
+	margin: 10px 20px;
+
+}
+
+/*id*/
+#conteudo{
+	margin: 5px;
+	overflow: auto;
+}
