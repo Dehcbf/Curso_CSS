@@ -63,6 +63,11 @@ h1 { /* Altera o estilo de todos H1 */
 	padding: 20px;
 }
 
+#menu a:hover{
+	background-color: #111;
+	color: #F08080;
+}
+
 /*class*/
 .container{ /* Altera o estilo da classe */
 	width: 960px;
